@@ -1,0 +1,9 @@
+App(
+    appid="stratagem-hero",
+    name="Stratagem Hero",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="sh_app",
+    stack_size=4 * 1024,
+    requires=["gui"],
+    fap_category="Games",
+)
